@@ -2,32 +2,390 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height:10vh;
+  background: green;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height:10vh;
+  margin-top: 750px;
+  background: green;
+  color: white;
+  list-style: none;
+}
+
+.headUl0 {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-left: -160px;
+  margin-top: 0px;
+}
+
+.headLi0 {
+  font-size: 12px;  
+  display:block;
+  border: 1px solid black;
+    box-sizing: border-box;
+    height: 30px;
+}
+
+.headLi0:hover {
+  color: #ff0000;
+}
+
+
+#input-container
+{
+    position: absolute;
+    top: 6.6%;
+    left: 52%;
+    margin-right:40px;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    display:block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 70%;
+}
+#input-container1
+{
+    position: absolute;
+    top: 7.3%;
+    left: 52%;
+    margin-right:40px;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    display:block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 70%;
+}
+
+input
+{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: .5s;
+    border: 1px solid black;
+}
+input[id="fname"]
+{
+    background: white;
+    width: 440px;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border: 1px solid black;
+    
+    /* border-radius: 25px 0 0 25px; */
+}
+
+input[id="tname"]
+{
+    background: 	#DCDCDC;
+    width: 650px;
+    height: 39px;
+    outline: none;
+    padding: 0 25px;
+    border: 1px;
+    margin-left: 65px;
+    margin-top:18px;
+    /* border-radius: 25px 0 0 25px; */
+}
+
+button
+{
+    position: relative;
+    left: -5px;
+    /* border-radius: 0 25px 25px 0; */
+    width: 80px;
+    height: 39px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #DAA520;
+    color: #fff;
+    
+}
+.btnMain:hover {
+    background: #ff0000;
+}
+
+.btnMain1:hover {
+  background: #ff0000;
+}
+
+.headLi + .headLi {
+  margin: 0 0 0 10px;
+ }
+
+ input + .btnMain {
+  margin: 0 12px;
+ }
+
+ input + .btnMain1 {
+  margin: 0 5px;
+ }
+
+ .btnMain1 {
+  font-weight: bold;
+  color: white;
+  background: orange;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  top: -1px;
+  
+ }
+
+ .headUl {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  display: flex;
+  top: 100%;
+  margin-top: -12px;
+  margin-right: -250px;
+ }
+
+
+.appy .headLi {
+  width: 150px;
+  line-height: 20px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 90%;
+  margin: 0;
+  
+}
+
+
+.headUl1 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  display: flex;
+  top: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 100px;
+ }
+
+
+.appy1 .headLi1 {
+  width: 35px;
+  line-height: 19px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 90%;
+  margin: 0;
+  font-weight: bold;
+  
+}
+.appy + .appy {
+  margin: 0 0 0 25px;
+}
+
+.headLi:hover {
+  color: #669900;
+  transition: 0.6s;
+}
+
+.headLi1:hover {
+  color: #669900;
+  transition: 0.6s;
+}
+.bigfoot {
+  position: relative;
+  max-height: 100%;
+  margin-top: 575px;
+
+}
+
+
+/* .headBoy {
+  box-sizing: border-box;
+  border: 1px solid black;
+  display: inline-block;
+} */
+
+.bodyUl{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    justify-content: flex-end;
+    margin-top: -105px;
+    box-sizing: border-box;
+    display:block;
+    border:1px solid pink;
+    width: 219px;
+    /* display: flex; */
+}
+
+.newAppy .bodyLi {
+  list-style: none;
+  width: 150px;
+  /* line-height: 20px; */
+  text-decoration: none;
+  /* color: black; */
+  /* display: block; */
+  font-size: 10px;
+  text-align: left;
+  padding: 2px;
+  /* border-radius: 10px; */
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: flex-end;
+  /* font-weight: bold;
+  top: 90%; */
+  
+}
+
+.newAppy {
+  text-decoration: none;
+}
+
+.bodyLi {
+  text-decoration: none;
+  color: black;
+}
+
+.flexy {
+  float: right;
+  position: absolute;
+  background: grey;
+  margin-left: 155px;
+  margin-top: -26px;
+  display: block;  
+  z-index: 3;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 1px solid black;
+  height: 354px;
+  list-style: none;
+  
   }
-  to {
-    transform: rotate(360deg);
+
+  .flex1{
+    text-decoration: none;
   }
+
+  .fle{
+    text-decoration: none;
+    list-style: none;
+    background: grey;
+    box-sizing: border-box;
+  border: 1px solid black;
+  display: block;  
+  z-index: 3;
+  position:absolute;
+  margin-top: 50px;
+  margin-left: -70px;
+  }
+
+
+  .flex2{
+    text-decoration: none;
+  }
+
+.jumiaC {
+  z-index: 1;
+  overflow: hidden;
+}
+
+.newAppy .bodyLi :hover {
+  background: #669900;
+  transition: 0.6s;
+}
+
+.bodyDiv {
+  position: absolute;
+  margin-top:80px;
+  display: flex;
+  margin-left: 320px;
+}
+
+.products {
+margin-left: 300px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  text-align: center;
+  width:80px;
+  margin-top: 310px;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50% */
+}
+
+/* .products>* {
+   flex: 0 0 45%;
+} */
+
+
+.product {
+  border: 1px solid black;
+  
+  /* width: 50px; */
+}
+
+.cart {
+  text-decoration: none;
+  color: black;
+}
+
+.cartText {
+  border: 1px solid black;
+  width: 1357px;
+ margin-left:300px;
+ margin-top: 271px;
+ position: absolute;
+
+}
+
+.grid {
+  position: absolute;
+  top: 225px;
+}
+
+.stable {
+  display: flex;
+}
+
+.promain{
+  display: flex;
+  flex-direction: row;
 }
