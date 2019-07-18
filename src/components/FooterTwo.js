@@ -59,8 +59,8 @@ class FooterTwo extends Component {
                 <li className="moreli"><a href="#" className="nomoreli">Uganda</a></li>
                 </div>
 
-                <div>
-                    <div className="smaH">
+                <div className="divhide">
+                    <div>
                     <p className="lastp">JOIN US ON</p>
                     <a  href="#"><img src="/pics/facebook-circled.png" width= "25px"/></a>
                     <a  href="#"><img src="/pics/twitter-circled.png" width= "25px"/></a>
@@ -101,7 +101,19 @@ class FooterTwo extends Component {
                     <br/>
                 <p style={{color:"white", fontSize:"13px"}}>In partnership with <a href="#"><img src="/pics/mtn.png" width= "20px"/></a> & <a href="#"><img src="/pics/manlogo.png" width= "55px"/></a></p>
                 </div>
-                
+
+                <div className="mfooter">
+
+                <div className="mobilefooter">
+                <li className="mobileli"><a href="#" className="nomoreli2" >CONTACT</a></li>
+                <li className="mobileli"><a href="#" className="nomoreli2">HELP</a></li>
+                <li className="mobileli"><a href="#" className="nomoreli2">CONDITIONS</a></li>
+                <li className="mobileli"><a href="#" className="nomoreli2">BECOME A SELLER</a></li>
+                </div>
+                <div className="lfooter">
+                <p className="mobileli"><a href="#" className="nomoreli3">All Rights Reserved</a></p>
+                </div>
+                </div>
             </div>
         
 

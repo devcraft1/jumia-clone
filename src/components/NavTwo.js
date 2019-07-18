@@ -4,7 +4,7 @@ import Land from './Land';
 import Grid from './Grid';
 import List2 from './List2';
 import List3 from './List3';
-import { Home, Book, AddShoppingCart, Help, KeyboardArrowDown, Dehaze} from '@material-ui/icons'
+import { Home, Book, AddShoppingCart, Help, KeyboardArrowDown, Dehaze, ShoppingCart, Person, Search} from '@material-ui/icons'
 
 
 class NavTwo extends Component{
@@ -67,7 +67,24 @@ class NavTwo extends Component{
         </ul>
             </div>
           
-                </div>
+            
+            <div className="mobileNav">
+              <div className="mobileNavMenu">
+            <Dehaze />JUMIA <AddShoppingCart /> 
+            <Person style={{marginLeft: "250px"}}/> <ShoppingCart style={{marginLeft: "3px"}} />
+            </div> 
+          
+            <div className="mobileinput1">
+            <div className="search"><Search style={{marginBottom: "-7px"}}/><input className="mobileinput" placeholder="Search..."/></div>
+            </div>
+            </div>
+           
+            </div>
+           
+          
+          
+           
+               
         )
     }
 }
