@@ -7,6 +7,9 @@ import Register from './components/Register';
 import Gallery from './components/Gallery';
 import Display from './components/Display';
 import Error from './components/Error';
+import Footer from './components/Footer';
+import Profile from './components/Profile';
+
 
 
 class App extends Component {
@@ -14,14 +17,12 @@ class App extends Component {
     return (
       <div className="App">    
       <BrowserRouter>
-      <div>
           <Switch>
-          <Route path="/" component={Login} />
-          <Route path="/home" component={Display} />
-          <Route path="/profile" component={Gallery} />
+          <Route exact path="/" component={Display} />
+          <Route exact path="/login" component={Login} />
+          <Route path="/profile" component={Profile} />
           <Route  component={Error} />
       </Switch>
-      </div>
   
       </BrowserRouter>
       </div>        

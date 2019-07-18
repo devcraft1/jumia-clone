@@ -1,6 +1,6 @@
-slider {
+/* slider {
     display: block;
-    width: 100%;
+    width: 40%;
     height: 38.1%;
     background-color:transparent;
     overflow: hidden;
@@ -27,7 +27,7 @@ slider {
     height: 100%;
     background-image: url(/pics/washingmachine_slider.jpg);
     background-repeat: no-repeat;
-    background-size: 40% 100%;
+    background-size: 100% 100%;
     background-position: center;
    }
    
@@ -36,7 +36,7 @@ slider {
     animation-delay: 2s;
     height: 100%;
     background-image: url(/pics/slider_fo-min.jpg);
-    background-size: 40% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     left: 100%;
@@ -47,7 +47,7 @@ slider {
     animation-delay: 5s;
     height: 100%;
     background-image: url(/pics/Slider-min.jpg);
-    background-size: 40% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     left: 100%;
@@ -59,7 +59,7 @@ slider {
     animation-delay: 8s;
     height: 100%;
     background-image: url(/pics/sliderTV.jpg);
-    background-size: 40% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     left: 100%;
@@ -84,13 +84,15 @@ slider {
     30% { left: -100%; width: 100%; opacity:1;}
     31% { left: -100%; width: 0%;opacity:0;}
     100% { left: 100%; width: 0%; opacity:0;}
-   }
+   } */
    
    .discover {
        position: absolute;
-       margin-top: 300px;
-       margin-left: 1200px;
+       margin-top: -47px;
+       margin-left: 1050px;
        background:brown;
+       height:35px;
+       width: 120px;
    }
     
    .discover:hover{
@@ -98,26 +100,53 @@ slider {
    }
 
 .gallery {
-    /* overflow: hidden; */
     margin-top: 104px;
 }
 
 .gal1 {
+    position: absolute;
     float:left;
     display: block;
-    margin-left: -18px;
-    margin-top: -25px;
+     margin-left: 89px;
+    margin-top: 313px;
 }
 
 .gal2 {
     float:right;
     display: block;
     width:575px;
-    box-sizing: border-box;
-    border: 1px solid black;
     height:364px;
-    margin-top: -26px;
+    margin-top: -25px;
+    /* margin-right: 50px; */
 }
 .gal1 + .gal2 {
     margin: 0px;
 }
+
+/* 
+@media only screen and (max-width:736px){
+    .gallery{
+        display: block;
+        position: relative;
+        background: orange;
+        flex-direction: column;
+        width: 100%;
+      
+      }
+
+      .gal1 {
+          width:80%;
+        /* position: absolute; */
+        /* float:left; */
+        /* display: flex;
+        flex-direction: column; */
+         /* margin-left: 89px; */
+        /* margin-top: 313px; */
+    /* }
+}  */
+
+/* .displayContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column
+  }   */

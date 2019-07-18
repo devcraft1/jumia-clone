@@ -35,42 +35,43 @@ class Land extends Component{
                 <div className="bodyDiv">
                     <ul className="bodyUl">
                         <BrowserRouter>
+                        <div>
                         <NavLink className="newAppy" onClick={this.showDropdownMenu}>
-                        <li className="bodyLi"><ShoppingCart />FREE DELIVERY</li>
-                        </NavLink>   { this.state.displayMenu ? ( <List/>) : (null) }
-                        <NavLink className="newAppy">
-                        <li className="bodyLi"><MobileScreenShare />PHONES & TABLETS</li>
-                        </NavLink>
-                        <NavLink className="newAppy">
-                        <li className="bodyLi"><Computer />COMPUTING</li>
-                        </NavLink>
-                        <NavLink className="newAppy">
-                        <li className="bodyLi"><Tv />ELECTRONICS</li>
-                        </NavLink>
-                        <NavLink className="newAppy">
-                        <li className="bodyLi"><Home/>HOME & OFFICE</li>
-                        </NavLink>
-                        <NavLink className="newAppy">
-                        <li className="bodyLi"><Work />FASHION</li>
-                        </NavLink>
-                        <NavLink className="newAppy">
-                        <li className="bodyLi"><FitnessCenter />HEALTH & BEAUTY</li>
-                        </NavLink>
-                        <NavLink className="newAppy">
-                        <li className="bodyLi"><Casino />GAMING</li>
-                        </NavLink>
-                        <NavLink className="newAppy">
-                        <li className="bodyLi"><FreeBreakfast />GROCERY</li>
-                        </NavLink>
-                        <NavLink className="newAppy">
-                        <li className="bodyLi"><Language />GLOBAL STORE</li>
-                        </NavLink>
-                        <NavLink className="newAppy">
-                        <li className="bodyLi"><ChildCare />BABY PRODUCTS</li>
-                        </NavLink>
-                        <NavLink className="newAppy">
-                        <li className="bodyLi"><AllInclusive />OTHER CATEGORIES</li>
-                        </NavLink>
+                        <li className="bodyLi"><ShoppingCart />FREE DELIVERY</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
+                        </NavLink></div>  { this.state.displayMenu ? ( <List/>) : (null) }
+                        <div><NavLink className="newAppy">
+                        <li className="bodyLi"><MobileScreenShare />PHONES & TABLETS</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
+                        </NavLink></div>
+                        <div> <NavLink className="newAppy">
+                        <li className="bodyLi"><Computer />COMPUTING</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
+                        </NavLink></div>
+                        <div><NavLink className="newAppy">
+                        <li className="bodyLi"><Tv />ELECTRONICS</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
+                        </NavLink></div>
+                        <div><NavLink className="newAppy">
+                        <li className="bodyLi"><Home/>HOME & OFFICE</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
+                        </NavLink></div>
+                        <div><NavLink className="newAppy">
+                        <li className="bodyLi"><Work />FASHION</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
+                        </NavLink></div>
+                        <div><NavLink className="newAppy">
+                        <li className="bodyLi"><FitnessCenter />HEALTH & BEAUTY</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
+                        </NavLink></div>
+                        <div> <NavLink className="newAppy">
+                        <li className="bodyLi"><Casino />GAMING</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
+                        </NavLink></div>
+                        <div><NavLink className="newAppy">
+                        <li className="bodyLi"><FreeBreakfast />GROCERY</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
+                        </NavLink></div>
+                        <div><NavLink className="newAppy">
+                        <li className="bodyLi"><Language />GLOBAL STORE</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
+                        </NavLink></div>
+                        <div><NavLink className="newAppy">
+                        <li className="bodyLi"><ChildCare />BABY PRODUCTS</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
+                        </NavLink></div>
+                        <div><NavLink className="newAppy">
+                        <li className="bodyLi"><AllInclusive />OTHER CATEGORIES</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
+                        </NavLink></div>
                         </BrowserRouter>
                     </ul>
                 

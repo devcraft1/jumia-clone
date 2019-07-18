@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import Final from './Final';
 
 
 class Grid extends Component {
        
         render() {
-                return <div className="grid">
-                <h1 className="cartText">Featured Categories</h1>
+                return <div>
+                <div className="grid">
+                <p className="cartText">Featured Categories</p>
                 <div className="products">
                      <div className="product">
                   <a href="#" className="cart"><img src="/pics/phone.png" alt="nigerianteam" height="120"/>Mobile Phones</a>
@@ -45,6 +47,8 @@ class Grid extends Component {
                 </div>  
 
                 </div>
+                </div>
+<Final />
                 </div>
         }
 };

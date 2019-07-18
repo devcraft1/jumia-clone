@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
 import {Redirect,BrowserRouter,Link} from 'react-router-dom'
+import Footer from './Footer';
+import FooterTwo from './FooterTwo';
+import Register from './Register';
 import './login.css';
 
 class Login extends Component{
@@ -33,16 +36,16 @@ if(email === 'danekehu@gmail.com' && password ==='123'){
     this.setState({
         loggedIn:true
     })
-    
+    return this.props.history.push('/')   
     
 }
-return this.props.history.push('/home')
+
 }
 
 
 render() {
         
-    // return( <Redirect to='/home'/>)}
+ 
     return(
         // <div>
         //     <h1>Login here</h1>
@@ -52,7 +55,7 @@ render() {
         // <input type='submit'/>
         // </form>
         // </div>
-
+<div>
 <div className='container'>
 <form onSubmit={this.submitForm}>
 <h3>Login</h3>
@@ -64,7 +67,7 @@ render() {
 </div>
 
 <div className="Input">
-<input type='password' placeholder='password' name='password' value={this.state.password}  onChange={this.onChange}/>
+<input className="Input1"type='password' placeholder='password' name='password' value={this.state.password}  onChange={this.onChange}/>
 <label for="input" className="Input-label">Last Name</label>            
 </div>
 </div>
@@ -79,6 +82,12 @@ render() {
 <button className='b2'> LOGIN WITH FACEBOOK</button>
 </div>
 </form>
+
+
+</div>
+{/* <Register /> */}
+<Footer />
+<FooterTwo />
 </div>
     )
 }}

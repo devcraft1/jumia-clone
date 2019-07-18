@@ -1,0 +1,107 @@
+.All{
+    background: rgb(231, 230, 230);
+}
+
+
+.FirstOverall{
+    background:rgb(252, 250, 250);
+    margin-left: 7%;
+    margin-right: 5%; 
+    margin-top: 100px;
+}
+
+.Flex {
+    display: flex;
+    justify-content: space-around;
+}
+.FirstDiv{
+    position: absolute;
+    border: 1px solid;
+    border-style: ridge;
+    border-color: rgb(219, 215, 215);
+    background:white;
+    display: -webkit-inline-flex;
+    margin-right: 20%;
+    border-left-color:white; 
+    margin-left: -500px;
+    
+}
+
+.FirstDiv .nav .a :hover{
+    border: 1px solid;
+    border-color:black;
+    background: white;
+
+    
+}
+
+.nav {
+    width: 200px;
+    background: white;
+    line-height: 9px;
+    
+}
+
+.a {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.Logout{
+    color:red;
+}
+
+.Account{
+    background: rgb(231, 230, 230);
+}
+
+.Account1{
+    color: black;
+}
+
+.ChangePassword{
+    color: red;
+}
+
+.SecondOverall{
+    background: white;
+    display: flex;
+    /* -moz-text-size-adjust:right 20px; */
+    border: 1px solid rgb(255, 255, 255);
+    
+    
+}
+
+.SecondDiv{
+border: 1px solid;
+border-style: ridge;
+/* flex: auto;  */
+/* margin-right: 50%;   */
+width: 350px;
+background: white;
+position: relative;
+margin-left: 220px;
+}
+
+
+ .ThirdDiv{
+    border:1px solid;
+    border-style: ridge;
+    margin-top: 100px;
+    
+} 
+
+ .FourtDiv{
+ border: 1px solid;
+border-style: ridge;
+margin-top: 40px;
+width: 380px;
+position: relative;
+   
+    margin-left: 80px;
+ }
+
+ .FirstDiv + .SecondDiv {
+     margin: 0 0px;
+ }

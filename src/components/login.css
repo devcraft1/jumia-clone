@@ -12,7 +12,7 @@ body{
     margin: 20px auto;
     flex-wrap: wrap;
     position: relative;
-    right: 1.7rem ;
+    right: 0rem ;
   }
   
   .container{
@@ -27,7 +27,7 @@ body{
   
   .container h3{
     position: relative;
-    left: 11rem;
+    left: 18rem;
     color: #f68b1e;
   }
   
@@ -49,7 +49,7 @@ body{
     padding: 0;
     text-align: left;
     display: block;
-    right: 20rem;
+    right: 25rem;
     border: 1px solid;
     margin: 25px;
     height: 2rem;
@@ -59,6 +59,9 @@ body{
     border-left: none;
     border-bottom-color: #B0BEC5;
   
+  }
+  .Input1 {
+    border: none;
   }
   
   .Input-text {
@@ -84,7 +87,7 @@ body{
     outline: none;
     box-shadow: 0.2rem 0.8rem 1.6rem var(--colorPrimary600);
   }
-  
+   
   .Input-label {
     display: block;
     position: absolute;
@@ -105,13 +108,13 @@ body{
       transform var(--inputTransitionDuration) var(--inputTransitionTF),
       visibility 0ms var(--inputTransitionDuration) var(--inputTransitionTF),
       z-index 0ms var(--inputTransitionDuration) var(--inputTransitionTF);
-  }
-  
+  } 
+
   .Input-text:placeholder-shown + .Input-label {
     visibility: hidden;
     z-index: -1;
-  }
-  
+  } 
+
   .Input-text:not(:placeholder-shown) + .Input-label,
   .Input-text:focus:not(:placeholder-shown) + .Input-label {
     visibility: visible;
@@ -124,11 +127,11 @@ body{
       transform var(--inputTransitionDuration),
       visibility 0ms,
       z-index 0ms;
-  }
+  } 
   
   .box{
     position: relative;
-    right: 5em;
+    right: 10em;
     bottom: 1rem;
     display: flex;
     flex-direction: row;
@@ -147,17 +150,19 @@ body{
   
   }
   
-  .btns1 button{
-    position: relative;
-    right:1rem;
+  .b1 .b2{
+    position: absolute;
+    left: 100rem;
     width: 27rem;
     height: 3rem;
     margin: 1rem;
+    margin-right: -140px;
+  
   }
   
-  .container2 button{
+  .b3 .b4{
     position: relative;
-    top: 14.1rem;
+    top: 6.5rem;
     left:4.6rem;
     margin: 1rem;
     width: 27rem;
@@ -172,6 +177,7 @@ body{
   .container2 h3{
     text-align: center;
     color:#f68b1e;
+    margin-right: 650px;
   }
   
   .b1{

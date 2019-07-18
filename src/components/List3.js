@@ -1,14 +1,16 @@
 import React, {Component} from 'react'
-import {Link, BrowserRouter} from 'react-router-dom'
 
 
 class List3 extends Component{
+
+
+
     
     render(){
         return(
-            <div>
-                 <button>Login</button>
-                 <p>New Customer <a>Sign UP</a></p>
+            <div className="flefle">
+                <button style={{width:"100px", height:"27px", marginTop:"13px",fontWeight:"bold", background:"orange"}}><a href="/login" style={{textDecoration:"none", color:"white"}}>LOGIN</a></button>
+                 <p style={{fontSize:"12px"}}>New Customer?<a href="/login" >Sign Up</a></p>
             </div>
         )
     }

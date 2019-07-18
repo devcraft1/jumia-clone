@@ -1,15 +1,18 @@
 .App {
   text-align: center;
-}
+  }
 
-nav {
+  body {
+    background:	#F1F1F1;
+  }
+/* nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height:10vh;
   background: green;
   color: white;
-}
+} */
 
 .nav-links {
   width: 50%;
@@ -41,8 +44,6 @@ nav {
 .headLi0 {
   font-size: 12px;  
   display:block;
-  border: 1px solid black;
-    box-sizing: border-box;
     height: 30px;
 }
 
@@ -68,17 +69,16 @@ nav {
 {
     position: absolute;
     top: 7.3%;
-    left: 52%;
+    left: 50%;
     margin-right:40px;
     transform: translate(-50%,-50%);
     background-color: white;
     display:block;
-    border: 1px solid black;
-    box-sizing: border-box;
-    width: 70%;
+    width: 100%;
+   
 }
 
-input
+ input
 {
     position: relative;
     display: inline-block;
@@ -86,7 +86,7 @@ input
     box-sizing: border-box;
     transition: .5s;
     border: 1px solid black;
-}
+} 
 input[id="fname"]
 {
     background: white;
@@ -102,13 +102,13 @@ input[id="fname"]
 
 input[id="tname"]
 {
-    background: 	#DCDCDC;
+    background: #F1F1F1;
     width: 650px;
     height: 39px;
     outline: none;
     padding: 0 25px;
     border: 1px;
-    margin-left: 65px;
+    margin-left: 50px;
     margin-top:18px;
     /* border-radius: 25px 0 0 25px; */
 }
@@ -117,7 +117,6 @@ button
 {
     position: relative;
     left: -5px;
-    /* border-radius: 0 25px 25px 0; */
     width: 80px;
     height: 39px;
     border: none;
@@ -125,8 +124,7 @@ button
     cursor: pointer;
     background: #DAA520;
     color: #fff;
-    
-}
+}  
 .btnMain:hover {
     background: #ff0000;
 }
@@ -153,6 +151,11 @@ button
   background: orange;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   top: -1px;
+  width: 80px;
+  height: 39px;
+  border: none;
+  outline: none;
+  cursor: pointer;
   
  }
 
@@ -164,7 +167,7 @@ button
   display: flex;
   top: 100%;
   margin-top: -12px;
-  margin-right: -250px;
+  margin-right: -450px;
  }
 
 
@@ -194,7 +197,7 @@ button
   top: 100%;
   margin-top: 5px;
   margin-bottom: 5px;
-  margin-right: 100px;
+  margin-right: 310px;
  }
 
 
@@ -206,14 +209,12 @@ button
   color: black;
   display: block;
   font-size: 14px;
-  text-align: center;
   padding: 5px;
   border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
   top: 90%;
   margin: 0;
-  font-weight: bold;
-  
+  font-weight: bold; 
 }
 .appy + .appy {
   margin: 0 0 0 25px;
@@ -239,7 +240,9 @@ button
 /* .headBoy {
   box-sizing: border-box;
   border: 1px solid black;
-  display: inline-block;
+  display: block;
+  background-color: #fff;
+  
 } */
 
 .bodyUl{
@@ -248,11 +251,10 @@ button
     padding: 0;
     text-decoration: none;
     justify-content: flex-end;
-    margin-top: -105px;
-    box-sizing: border-box;
+    margin-top: -106px;
     display:block;
-    border:1px solid pink;
     width: 219px;
+    background: white;
     /* display: flex; */
 }
 
@@ -286,39 +288,68 @@ button
 .flexy {
   float: right;
   position: absolute;
-  background: grey;
-  margin-left: 155px;
-  margin-top: -26px;
+  background: white;
+  margin-left: 218px;
+  margin-top: -32px;
   display: block;  
   z-index: 3;
   text-decoration: none;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   border: 1px solid black;
-  height: 354px;
+  height: 361px;
   list-style: none;
+  width: 175px;
+  text-align: left;
+  overflow: hidden;
   
   }
 
   .flex1{
     text-decoration: none;
+    font-size: 12px;
+    text-align: left;
+    color: grey;
   }
 
   .fle{
     text-decoration: none;
     list-style: none;
-    background: grey;
+    background: white;
     box-sizing: border-box;
   border: 1px solid black;
   display: block;  
   z-index: 3;
   position:absolute;
-  margin-top: 50px;
-  margin-left: -70px;
+  margin-top: 57px;
+  margin-left: -95px;
   }
 
 
   .flex2{
     text-decoration: none;
+    font-size: 12px;
+    text-align: left;
+    color: black;
+  }
+
+  .flefle {
+    background: white;
+    box-sizing: border-box;
+  border: 1px solid black;
+  display: block;  
+  z-index: 3;
+  position:absolute;
+  margin-top: 57px;
+  margin-left: 50px;
+  width: 190px;
+  height: 100px;
+  font-size: 13px;
+
+  }
+
+  .logbtn {
+    width: 10%;
+    height: 20px;
   }
 
 .jumiaC {
@@ -345,20 +376,14 @@ margin-left: 300px;
   text-align: center;
   width:80px;
   margin-top: 310px;
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 50% */
 }
-
-/* .products>* {
-   flex: 0 0 45%;
-} */
 
 
 .product {
-  border: 1px solid black;
-  
+  border: 1px solid #F1F1F1;
+  font-size: 15px;
+  width: 195px;
+  background: white;  
   /* width: 50px; */
 }
 
@@ -368,24 +393,384 @@ margin-left: 300px;
 }
 
 .cartText {
-  border: 1px solid black;
-  width: 1357px;
+  border: 1px solid #F1F1F1;
+  width: 1180px;
  margin-left:300px;
  margin-top: 271px;
  position: absolute;
-
+ height: 37px;
+ font-size: 18px;
+ text-align: left;
+ background: white;
 }
 
 .grid {
   position: absolute;
   top: 225px;
+  margin-left:22px;
+  
 }
 
 .stable {
   display: flex;
+  box-sizing: border-box;
+  border: 1px solid white;
+  width: 64%;
+  margin-left:323px;
+  margin-top: 20px;
+  justify-content: space-around;
+  background: white;
 }
 
 .promain{
   display: flex;
   flex-direction: row;
+  width: 64%;
+  margin-left: 320px;
+  
 }
+.pro {
+  font-size: 14px;
+  width: 100%;
+  background: white;
+  
+}
+
+.bike {
+  text-decoration: none;
+  color: black;
+}
+.rawText {
+  margin-top: 28px;
+  margin-left: 319px;
+  width:64%;
+  background: orange;
+  display: flex;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.rawText1 {
+  justify-content: flex-start;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.rawText2 {
+  margin-left: 820px;
+  font-size: 15px;
+}
+.master {
+  margin-top: 818px;
+ 
+}
+
+.discount {
+  box-sizing: border-box;
+  background-color: yellow;
+  display: block;
+  border: 1px solid yellow;
+  position: absolute;
+  margin-top: -270px;
+  margin-left: 155px;
+}
+
+.bottomTextHolder {
+  background: white;
+  width: 1174px;
+  height: 370px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-left:324px;
+
+}
+
+.Textp {
+  color: grey;
+  font-size: 13px;
+  
+}
+
+.Texth1 {
+  color: grey;
+  font-size: 17px;
+  line-height: 45px;
+}
+
+.cd {
+  width: 93%;
+  height: 250px;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.b4foot {
+  display: flex;
+  /* justify-content: space-around; */
+  background:	#C0C0C0;
+  margin-top: 28px;
+}
+
+.oneFeet {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 335px;
+}
+
+.twoFeet {
+  margin-left: 320px;
+
+}
+.footbtn {
+  background: orange;
+  margin: 5px;
+  border: none;
+  outline: none;
+  color: white;
+  height: 22px;
+  font-weight: bold;
+}
+
+.footbtn:hover {
+   background: darkorange;
+}
+
+.foothov:hover {
+  background: orange;
+}
+.coverboy {
+  display: flex;
+  justify-content: space-evenly;
+  background: #696969;
+}
+
+.lastp {
+  color:#FF8C00;
+  font-size: 13px;
+  text-align:left;
+}
+.nomoreli {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.nomoreli + .nomoreli {
+  margin: 0 0 0 15px;
+}
+
+.moreli{
+  list-style: none;
+  font-size: 12px;
+  line-height: 20px;
+  text-align:left;
+}
+.smaH {
+  text-align: left;
+  justify-content: left;
+}
+
+.sma + .sma {
+  margin: 0 0 0 10px;
+}
+
+.jumicon{
+  text-align: left;
+  justify-content: left;
+}
+
+
+
+@media only screen and (max-width:736px) {
+  body {
+    margin : 0;
+    padding: 0;
+}
+.App{
+  width: 100%;
+  height: 100%;
+  /* display: flex;
+  flex-direction: column */
+}
+
+.displayContainer {
+  width: 100%;
+  text-align: left;
+  background:transparent;
+  position: relative;
+  /* overflow: auto; */
+  /* display: flex;
+  flex-direction: column */
+}
+.gallery{
+  bottom: 0;
+  width: 100%;
+  background: green;
+} 
+.gal1 {
+  position: absolute;
+  left: -89px;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+  /* .App {
+    text-align: center;
+     position:relative;
+     overflow: hidden; 
+    }  */
+  .headLi0 {
+    display: none;
+  }
+
+  #input-container1 {
+    display: none;
+  }
+  .slideshow-simple {
+  width: 1560px;
+  height: 708px;
+  }
+
+  .rawimg {
+position: absolute;
+  margin-right: 200px;
+  z-index: 2;  
+  max-width: 100%;
+  max-height: 100%;
+}
+  .discover {
+  display: none;
+}
+
+.gallery .gal2 {
+ display: none;
+}
+
+.bodyUl {
+  display: none;
+}
+.products {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+  max-width: 100%;
+  max-height: 100%;
+  width: 340px;
+  margin-left: 0px;
+}
+.product {
+  border: 1px solid #F1F1F1;
+  font-size: 9px;
+  width: 310px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.cartText {
+  max-width: 100%;
+  max-height: 100%;
+ font-size: 12px;
+ margin-left: 0px;
+}
+.grid {
+  top: 200px;
+  margin-left: 0px;
+  width: 100%;
+  background: transparent;
+  
+}
+.master {
+  margin-top: 1300px;
+  margin-left: 0px;
+  width: 100%;
+}
+.stable {
+  width: 80%;
+}
+.img {
+  width:260px;
+}
+
+
+.promain{
+  width: 750px;
+  margin-left: 0px; 
+}
+.pro {
+  font-size: 12px;
+  width: 100%;
+  background: white;
+  
+}
+
+.rawText {
+  margin-top: 28px;
+  margin-left: 0px;
+  width:400px;
+  background: orange;
+  display: flex;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.rawText1 {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.rawText2 {
+  font-size: 10px;
+}
+
+.bottomTextHolder {
+  background: white;
+  width: 550px;
+  height: 470px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-left:0px;
+
+}
+
+.Textp {
+  color: black;
+  font-size: 10px;
+  
+}
+
+.Texth1 {
+  color: black;
+  font-size: 13px;
+  line-height: 50px;
+}
+
+.cd {
+  width: 93%;
+  height: 150px;
+  margin-left: 0px;
+  text-align: left;
+}
+.b4foot {
+  display: none;
+}
+.divhide {
+  display: none;
+}
+.coverboy {
+  position: absolute;
+  width: 550px;
+  margin-left: 0px;
+}
+
+.smaH {
+  margin-left: 0px;
+}
+
+
+}
+
+
+
+
