@@ -589,7 +589,11 @@ margin-left: 300px;
   justify-content: left;
 }
 
-.mobilefooter {
+.sma1 {
+  text-align: left;
+}
+
+.mfooter {
   display: none;
 }
 
@@ -603,8 +607,6 @@ margin-left: 300px;
 .App{
   width: 100%;
   height: 100%;
-  /* display: flex;
-  flex-direction: column */
 }
 
 .displayContainer {
@@ -613,8 +615,6 @@ margin-left: 300px;
   background:transparent;
   position: relative;
   overflow: hidden;
-  /* display: flex;
-  flex-direction: column */
 }
 .gallery{
   bottom: 0;
@@ -628,12 +628,6 @@ margin-left: 300px;
   max-height: 100%;
 
 }
-
-  /* .App {
-    text-align: center;
-     position:relative;
-     overflow: hidden; 
-    }  */
   .headLi0 {
     display: none;
   }
@@ -674,6 +668,7 @@ margin-left: 300px;
   .slideshow-simple {
   width: 1560px;
   height: 708px;
+  margin-top: -50px;
   }
 
   .rawimg {
@@ -685,7 +680,7 @@ position: absolute;
 }
 .indicators {
   position : absolute;
-  margin-right: 100px;
+  margin-left: -600px;
   z-index: 3;
 }
 
@@ -723,14 +718,14 @@ position: absolute;
  margin-left: 0px;
 }
 .grid {
-  top: 200px;
+  top: 240px;
   margin-left: 0px;
   width: 100%;
   background: transparent;
   
 }
 .master {
-  margin-top: 940px;
+  margin-top: 880px;
   margin-left: 0px;
   width: 100%;
 }

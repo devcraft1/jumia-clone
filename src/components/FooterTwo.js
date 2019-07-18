@@ -60,7 +60,7 @@ class FooterTwo extends Component {
                 </div>
 
                 <div className="divhide">
-                    <div>
+                    <div className="sma1">
                     <p className="lastp">JOIN US ON</p>
                     <a  href="#"><img src="/pics/facebook-circled.png" width= "25px"/></a>
                     <a  href="#"><img src="/pics/twitter-circled.png" width= "25px"/></a>

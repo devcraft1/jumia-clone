@@ -70,8 +70,8 @@ class NavTwo extends Component{
             
             <div className="mobileNav">
               <div className="mobileNavMenu">
-            <Dehaze />JUMIA <AddShoppingCart /> 
-            <Person style={{marginLeft: "250px"}}/> <ShoppingCart style={{marginLeft: "3px"}} />
+            <Dehaze style={{marginRight: "15px"}}/><span style={{ fontWeight:"bold", fontSize:"22px", fontFamily:"cursive"}}>JUMIA </span> <AddShoppingCart style={{ color: "orange" }}/> 
+            <Person style={{marginLeft: "200px"}}/> <ShoppingCart style={{marginLeft: "3px"}} />
             </div> 
           
             <div className="mobileinput1">
