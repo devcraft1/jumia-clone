@@ -7,7 +7,7 @@ import List3 from './List3';
 import { Home, Book, AddShoppingCart, Help, KeyboardArrowDown, Dehaze, ShoppingCart, Person, Search} from '@material-ui/icons'
 
 
-class NavThree extends Component{
+class Nav6 extends Component{
 
     state = {
         displayMenu: false,
@@ -54,8 +54,8 @@ class NavThree extends Component{
             <button className="btnMain3"> SEARCH </button>
             <ul className="headUl1">
             <BrowserRouter>
-            <Person style={{marginTop:"18px"}}/><NavLink className="appy1" onClick={this.showDropdownMenu} activeClassName="active"  style={{ textDecoration: 'none', marginTop:"18px"}}>
-            <li className="headLi1">Login</li>
+            <NavLink className="appy1" onClick={this.showDropdownMenu} activeClassName="active"  style={{ textDecoration: 'none', marginTop:"18px"}}>
+            <li className="headLi3">Hi Chike</li>
         </NavLink><KeyboardArrowDown style={{ marginTop: '22px'}}/> { this.state.displayMenu ? ( <List2/>) : (null) }
         <Help style={{marginTop:"18px"}}/><NavLink className="appy1" onClick={this.showDropdownMenu} activeClassName="active"  style={{ textDecoration: 'none', marginTop:"18px"}}>
             <li className="headLi1">Help</li>
@@ -89,4 +89,4 @@ class NavThree extends Component{
     }
 }
 
-export default NavThree;
+export default Nav6;

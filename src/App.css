@@ -82,6 +82,19 @@
    
 }
 
+#input-container3
+{
+    position: absolute;
+    top: 7.3%;
+    left: 50%;
+    margin-right:40px;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    display:block;
+    width: 100%;
+   
+}
+
  input
 {
     position: relative;
@@ -117,6 +130,22 @@ input[id="tname"]
     /* border-radius: 25px 0 0 25px; */
 }
 
+
+input[id="lname"]
+{
+    background: #F1F1F1;
+    width: 600px;
+    height: 39px;
+    outline: none;
+    padding: 0 25px;
+    border: 1px;
+    margin-left: 30px;
+    margin-top:18px;
+    border-radius: 4px;
+    /* border-radius: 25px 0 0 25px; */
+}
+
+
 button
 {
     position: relative;
@@ -149,6 +178,10 @@ button
   margin: 0 5px;
  }
 
+ input + .btnMain3 {
+  margin: 0 15px;
+ }
+
  .btnMain1 {
   font-weight: bold;
   color: white;
@@ -162,6 +195,22 @@ button
   cursor: pointer;
   
  }
+
+
+ .btnMain3 {
+  font-weight: bold;
+  color: white;
+  background: orange;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  top: -1px;
+  width: 70px;
+  height: 39px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;  
+ }
+
 
  .headUl {
   list-style: none;
@@ -219,6 +268,19 @@ button
   top: 90%;
   margin: 0;
   font-weight: bold; 
+}
+
+.headLi3{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-weight: bold;
 }
 .appy + .appy {
   margin: 0 0 0 25px;

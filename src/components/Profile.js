@@ -5,13 +5,16 @@ import Footer from './Footer';
 import FooterTwo from './FooterTwo';
 import Items from './Items';
 import Nav from './Nav';
+import Nav5 from './Nav5';
+import Nav6 from './Nav6';
 
 class Profile extends Component{
   
         render(){
         return(
           <div>  
-            <Nav />
+            <Nav5 />
+            <Nav6 />
                <div className='All'>
             <div className='FirstOverall'>
                 <div className='Flex'>
