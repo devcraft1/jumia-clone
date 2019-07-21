@@ -5,11 +5,11 @@ import SlideItem from './sItem';
 import './last.css';
 
 const listItems = [
-    {'image':<a href="#"><img className="rawimg" src="/pics/washingmachine_slider.jpg"/></a> },
-    {"image":<a href="#"><img className="rawimg"src="/pics/slider_fo-min.jpg"/></a>},
-    {"image":<a href="#"><img className="rawimg" src="/pics/Slider-min.jpg"/></a>},
-    {'image': <a href="https://www.google.com"><img className="rawimg"src='/pics/sliderTV.jpg' /></a>},
-    {'image': <a href="#"><img className="rawimg"src='/pics/sliderTV.jpg' /></a>},
+    {'image':<a href="https://www.google.com" target="_blank" ><img className="rawimg" src="/pics/washingmachine_slider.jpg"/></a> },
+    {"image":<a href="https://www.google.com" target="_blank" ><img className="rawimg"src="/pics/slider_fo-min.jpg"/></a>},
+    {"image":<a href="https://www.google.com" target="_blank" ><img className="rawimg" src="/pics/Slider-min.jpg"/></a>},
+    {'image': <a href="https://www.google.com" target="_blank"><img className="rawimg"src='/pics/sliderTV.jpg' /></a>},
+    {'image': <a href="https://www.google.com" target="_blank"><img className="rawimg"src='/pics/jum_kitchen.jpg' /></a>},
   ];
 
 

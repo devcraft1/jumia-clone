@@ -10,14 +10,14 @@ class FooterTwo extends Component {
                     <ul>
                    <p className="lastp">LET US HELP YOU</p>
 
-                   <li className="moreli"><a href="#" className="nomoreli">Help Center</a></li>
-                   <li className="moreli"><a href="#" className="nomoreli">Warranty</a></li>
+                   <li className="moreli"><a href="https://www.google.com" target="_blank" className="nomoreli">Help Center</a></li>
+                   <li className="moreli"><a href="https://www.google.com" className="nomoreli">Warranty</a></li>
                    <li className="moreli"><a href="#" className="nomoreli">Service Centers</a></li>
                    <li className="moreli"><a href="#" className="nomoreli">Contact Us</a></li>
                    <li className="moreli"><a href="#" className="nomoreli">How to Shop on Jumia</a></li>
                    <li className="moreli"><a href="#" className="nomoreli">Shipping & Delivery</a></li>
                    <li className="moreli"><a href="#" className="nomoreli">Return Policy</a></li>
-                   <li className="moreli"><a href="#" className="nomoreli">Corporate & Bulk Purchase</a></li>
+                   <li className="moreli"><a href="https://www.google.com" className="nomoreli">Corporate & Bulk Purchase</a></li>
                    <li className="moreli"><a href="#" className="nomoreli">Jumia Mobile Apps</a></li>
                    <li className="moreli"><a href="#" className="nomoreli">Jumia Bot (Beta)</a></li>
 
@@ -25,7 +25,7 @@ class FooterTwo extends Component {
 
                    <li className="moreli"><a href="#" className="nomoreli">Sell on Jumia</a></li>
                    <li className="moreli"><a href="#" className="nomoreli">Become an Affiliate Partner</a></li>
-                   <li className="moreli"><a href="#" className="nomoreli">Become a Sales Consultant</a></li>
+                   <li className="moreli"><a href="https://www.google.com" className="nomoreli">Become a Sales Consultant</a></li>
                    <li className="moreli"><a href="#" className="nomoreli">Become a Jumia Vendor Service Provider</a></li>
                    <li className="moreli"><a href="#" className="nomoreli">Become a Logistics Service Partner</a></li>
                     </ul>
@@ -33,7 +33,7 @@ class FooterTwo extends Component {
                     <div className="divhide">
                 <p className="lastp">GET TO KNOW US</p>
 
-                <li className="moreli"><a href="#" className="nomoreli">Careers</a></li>
+                <li className="moreli"><a href="https://www.google.com" className="nomoreli">Careers</a></li>
                 <li className="moreli"><a href="#" className="nomoreli">About Us</a></li>
                 <li className="moreli"><a href="#" className="nomoreli">Jumia Express</a></li>
                 <li className="moreli"><a href="#" className="nomoreli">Shipped From Overseas</a></li>
@@ -46,8 +46,8 @@ class FooterTwo extends Component {
                 <div className="divhide">
                 <p className="lastp"> JUMIA INTERNATIONAL</p>
 
-                <li className="moreli"><a href="#" className="nomoreli">Algeria</a></li>
-                <li className="moreli"><a href="#" className="nomoreli">Cameroon</a></li>
+                <li className="moreli"><a href="https://www.google.com" className="nomoreli">Algeria</a></li>
+                <li className="moreli"><a href="https://en.wikipedia.org/wiki/Cameroon" target="_blank" className="nomoreli">Cameroon</a></li>
                 <li className="moreli"><a href="#" className="nomoreli">Egypt</a></li>
                 <li className="moreli"><a href="#" className="nomoreli">Ghana</a></li>
                 <li className="moreli"><a href="#" className="nomoreli">Ivory Coast</a></li>
@@ -62,27 +62,27 @@ class FooterTwo extends Component {
                 <div className="divhide">
                     <div className="sma1">
                     <p className="lastp">JOIN US ON</p>
-                    <a  href="#"><img src="/pics/facebook-circled.png" width= "25px"/></a>
-                    <a  href="#"><img src="/pics/twitter-circled.png" width= "25px"/></a>
+                    <a  href="https://web.facebook.com/jumia.com.ng/?_rdc=1&_rdr" target="_blank"><img src="/pics/facebook-circled.png" width= "25px"/></a>
+                    <a  href="https://twitter.com/jumianigeria" target="_blank"><img src="/pics/twitter-circled.png" width= "25px"/></a>
                     <a  href="#"><img src="/pics/youtube.png" width= "20px"/></a>
                     <a  href="#"><img src="/pics/shopping-cart-filled.png" width= "25px"/></a>
                     <a  href="#"><img src="/pics/instagram-logo.png" width= "25px"/></a>
-                    <a  href="#" style={{fontSize:"12px", color: "orange", fontWeight: "bold", textDecoration: "none"}}><img src="/pics/twitter-circled.png" width= "25px"/>LIVE CHAT</a>
+                    <a  href="https://twitter.com/jumianigeria" style={{fontSize:"12px", color: "orange", fontWeight: "bold", textDecoration: "none"}}><img src="/pics/twitter-circled.png" width= "25px"/>LIVE CHAT</a>
                     </div>
 
                     <p className="lastp">CONTACT US ON</p>
                     <li className="moreli"><a href="#" className="nomoreli">01 888 1100 / 0700 600 0000</a></li>
 
                     <p className="lastp">PAYMENT METHODS & DELIVERY PARTNER</p>
-                    <a className="sma" href="#"><img src="/pics/mastercard.png" width= "35px"/></a>
-                    <a className="sma" href="#"><img src="/pics/visa-filled.png" width= "35px"/></a>
-                    <a className="sma" href="#"><img src="/pics/verve2.png" width= "35px"/></a>
+                    <a className="sma" href="https://www.mastercard.com.ng/en-ng.html"><img src="/pics/mastercard.png" width= "35px"/></a>
+                    <a className="sma" href="https://www.visa.com.ng/" target="_blank"><img src="/pics/visa-filled.png" width= "35px"/></a>
+                    <a className="sma" href="https://www.mcash.com.ng/"><img src="/pics/verve2.png" width= "35px"/></a>
                     <a className="sma" href="#"><img src="/pics/money-filled.png" width= "35px"/></a>
                     <a className="sma" href="#"><img src="/pics/MCASH-1.png" width= "35px"/></a>
                     <a className="sma" href="#"><img src="/pics/int.jpeg" width= "35px"/></a>
                     <br/>
-                    <a className="sma" href="#"><img src="/pics/JUMpay.jpg" width= "35px"/></a>
-                    <a className="sma" href="#"><img src="/pics/dhl.png" width= "35px"/></a>
+                    <a className="sma" href="https://www.google.com"><img src="/pics/JUMpay.jpg" width= "35px"/></a>
+                    <a className="sma" href="https://www.visa.com.ng/"><img src="/pics/dhl.png" width= "35px"/></a>
                     <a className="sma" href="#"><img src="/pics/max.png" width= "35px"/></a>
                     <a className="sma" href="#"><img src="/pics/zippy.png" width= "35px"/></a>
 

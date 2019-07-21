@@ -10,31 +10,31 @@ class Final extends Component {
                 
                 <div className="stable">
                      <div className="stable1">
-                  <a href="#" className="car"><img className="img" src="/pics/stabilizer.jpg" alt="nigerianteam" height="300" width="580"/><img className="img2" src="/pics/Mobile-2i.jpg" alt="nigerianteam" height="300" width="580" /></a>
+                  <a href="https://www.google.com" target="_blank" className="car"><img className="img" src="/pics/stabilizer.jpg" alt="nigerianteam" height="300" width="580"/><img className="img2" src="/pics/Mobile-2i.jpg" alt="nigerianteam" height="300" width="580" /></a>
                 </div>
                 <div className="stable1">
-                  <a href="#" className="car"><img className="img" src="/pics/jumiahelp.jpg" alt="nigerianteam" height="300" width="580"/><img className="img2" src="/pics/mobile3.jpg" alt="nigerianteam" height="300" width="580" /></a>
+                  <a href="https://www.google.com" target="_blank" className="car"><img className="img" src="/pics/jumiahelp.jpg" alt="nigerianteam" height="300" width="580"/><img className="img2" src="/pics/mobile3.jpg" alt="nigerianteam" height="300" width="580" /></a>
                 </div>
                 </div>
                 <div className="rawText">
                 <p className="rawText1">Deals on Smartphones <span className="hideicon2" style={{fontWeight: "normal"}}>|</span><span className="spantext" style={{fontWeight: "normal"}}> Up to 30% Off</span></p>
-                <p className="rawText2"><a href="#" style={{textDecoration:"none", color:"black"}}>SEE ALL<span className="hideicon"><KeyboardArrowRight style={{ marginBottom: "-5px" }}/></span></a></p>
+                <p className="rawText2"><a href="https://www.google.com" target="_blank" style={{textDecoration:"none", color:"black"}}>SEE ALL<span className="hideicon"><KeyboardArrowRight style={{ marginBottom: "-5px" }}/></span></a></p>
                 </div>
                 <div className="promain">
                 <div className="pro">
-                  <a href="#" className="bike"><img src="/pics/j1.jpg" alt="nigerianteam" height="180" width="100%"/><p>S10 Lite 5.2 Inch HD 4GB RAM</p><p>N31,820</p><p style={{color:"grey",  textDecoration: 'line-through', fontSize: "12px"}}>N44,590</p><p className="discount">-29%</p></a>
+                  <a href="https://www.google.com" target="_blank" className="bike"><img src="/pics/j1.jpg" alt="nigerianteam" height="180" width="100%"/><p>S10 Lite 5.2 Inch HD 4GB RAM</p><p>N31,820</p><p style={{color:"grey",  textDecoration: 'line-through', fontSize: "12px"}}>N44,590</p><p className="discount">-29%</p></a>
                 </div>
                 <div className="pro">
-                  <a href="#" className="bike"><img src="/pics/j2.jpg" alt="nigerianteam" height="180" width="100%"/><p>Spark 3(KB7) 6.2-Inch HD</p><p>N32,240</p><p style={{color:"grey",  textDecoration: 'line-through', fontSize: "12px"}}>N33,089</p><p className="discount">-7%</p></a>
+                  <a href="https://www.google.com" target="_blank" className="bike"><img src="/pics/j2.jpg" alt="nigerianteam" height="180" width="100%"/><p>Spark 3(KB7) 6.2-Inch HD</p><p>N32,240</p><p style={{color:"grey",  textDecoration: 'line-through', fontSize: "12px"}}>N33,089</p><p className="discount">-7%</p></a>
                 </div>
                 <div className="pro">
-                  <a href="#" className="bike"><img src="/pics/j3.jpg" alt="nigerianteam" height="180" width="100%"/><p>Note 5 Stylus (X605) 6-Inch FHD</p><p>N52,390</p><p style={{color:"grey",  textDecoration: 'line-through', fontSize: "12px"}}>N52,833</p><p className="discount">-1%</p></a>
+                  <a href="https://www.google.com" target="_blank" className="bike"><img src="/pics/j3.jpg" alt="nigerianteam" height="180" width="100%"/><p>Note 5 Stylus (X605) 6-Inch FHD</p><p>N52,390</p><p style={{color:"grey",  textDecoration: 'line-through', fontSize: "12px"}}>N52,833</p><p className="discount">-1%</p></a>
                 </div>
                 <div className="pro">
                   <a href="#" className="bike"><img src="/pics/j4.jpg" alt="nigerianteam" height="180" width="100%"/><p>Note Plus 5.2-inch FHD</p><p>N27,990</p><p style={{color:"grey",  textDecoration: 'line-through', fontSize: "12px"}}>N44,990</p><p className="discount">-38%</p></a>
                 </div>
                 <div className="pro" id="hidepro">
-                  <a href="#" className="bike"><img src="/pics/j5.jpg" alt="nigerianteam" height="180" width="100%"/><p>Galaxy A20 Dual Sim- 6.4</p><p>N52,000</p><p style={{color:"grey",  textDecoration: 'line-through', fontSize: "12px"}}>N65,000</p><p className="discount">-20%</p></a>
+                  <a href="https://www.google.com" target="_blank" className="bike"><img src="/pics/j5.jpg" alt="nigerianteam" height="180" width="100%"/><p>Galaxy A20 Dual Sim- 6.4</p><p>N52,000</p><p style={{color:"grey",  textDecoration: 'line-through', fontSize: "12px"}}>N65,000</p><p className="discount">-20%</p></a>
                 </div>
                 <div className="pro" id="hidepro">
                   <a href="#" className="bike"><img src="/pics/j6.jpg" alt="nigerianteam" height="180" width="100%"/><p>Camon 11 (CF7) 6.2-Inch</p><p>N48,570</p><p style={{color:"grey",  textDecoration: 'line-through', fontSize: "12px"}}>N50,200</p><p className="discount">-16%</p></a>
@@ -43,25 +43,25 @@ class Final extends Component {
 
                 <div className="stable">
                      <div className="stable1">
-                  <a href="#" className="car"><img className="img" src="/pics/refurb.jpg" alt="nigerianteam" height="300" width="580"/><img className="img2" src="/pics/mobile4.jpg" alt="nigerianteam" height="300" width="580" /></a>
+                  <a href="https://www.google.com" target="_blank" className="car"><img className="img" src="/pics/refurb.jpg" alt="nigerianteam" height="300" width="580"/><img className="img2" src="/pics/mobile4.jpg" alt="nigerianteam" height="300" width="580" /></a>
                 </div>
                 <div className="stable1">
-                  <a href="#" className="car"><img className="img" src="/pics/jumiaint.jpg" alt="nigerianteam" height="300" width="580"/><img className="img2" src="/pics/mobile5.jpg" alt="nigerianteam" height="300" width="580" /></a>
+                  <a href="https://www.google.com" target="_blank" className="car"><img className="img" src="/pics/jumiaint.jpg" alt="nigerianteam" height="300" width="580"/><img className="img2" src="/pics/mobile5.jpg" alt="nigerianteam" height="300" width="580" /></a>
                 </div>
                 </div>
                 <div className="rawText">
                 <p className="rawText1">Deodorants & Perfumes <span className="hideicon2" style={{fontWeight: "normal"}}>|</span><span className="spantext" style={{fontWeight: "normal"}}> Up to 40% Off </span></p>
-                <p className="rawText2"><a href="#" style={{textDecoration:"none", color:"black"}}>SEE ALL<span className="hideicon"><KeyboardArrowRight style={{ marginBottom: "-5px" }}/></span></a></p>
+                <p className="rawText2"><a href="https://www.google.com" target="_blank" style={{textDecoration:"none", color:"black"}}>SEE ALL<span className="hideicon"><KeyboardArrowRight style={{ marginBottom: "-5px" }}/></span></a></p>
                 </div>
                 <div className="promain">
                 <div className="pro">
-                  <a href="#" className="bike"><img src="/pics/u1.jpg" alt="nigerianteam" height="180" width="100%"/><p>Women Cotton Dry Roll On Anti-P..</p><p>N1,030</p><p style={{color:"grey",  textDecoration: 'line-through', fontSize: "12px"}}>N1,500</p><p className="discount">-31%</p></a>
+                  <a href="https://www.google.com" target="_blank" className="bike"><img src="/pics/u1.jpg" alt="nigerianteam" height="180" width="100%"/><p>Women Cotton Dry Roll On Anti-P..</p><p>N1,030</p><p style={{color:"grey",  textDecoration: 'line-through', fontSize: "12px"}}>N1,500</p><p className="discount">-31%</p></a>
                 </div>
                 <div className="pro">
-                  <a href="#" className="bike"><img src="/pics/u2.jpg" alt="nigerianteam" height="180" width="100%"/><p>48H Fresh Active Spray With Lon..</p><p>N1,645</p></a>
+                  <a href="https://www.google.com" target="_blank" className="bike"><img src="/pics/u2.jpg" alt="nigerianteam" height="180" width="100%"/><p>48H Fresh Active Spray With Lon..</p><p>N1,645</p></a>
                 </div>
                 <div className="pro">
-                  <a href="#" className="bike"><img src="/pics/u3.jpg" alt="nigerianteam" height="180" width="100%"/><p>Oud Touch EDP For Men - 100ml</p><p>N5,990</p><p style={{color:"grey",  textDecoration: 'line-through', fontSize: "12px"}}>N10,000</p><p className="discount">-40%</p></a>
+                  <a href="https://www.google.com" target="_blank" className="bike"><img src="/pics/u3.jpg" alt="nigerianteam" height="180" width="100%"/><p>Oud Touch EDP For Men - 100ml</p><p>N5,990</p><p style={{color:"grey",  textDecoration: 'line-through', fontSize: "12px"}}>N10,000</p><p className="discount">-40%</p></a>
                 </div>
                 <div className="pro">
                   <a href="#" className="bike"><img src="/pics/u4.jpg" alt="nigerianteam" height="180" width="100%"/><p>Beauty EDP For Women - 100ml</p><p>N6,399</p><p style={{color:"grey",  textDecoration: 'line-through', fontSize: "12px"}}>N10,300</p><p className="discount">-38%</p></a>

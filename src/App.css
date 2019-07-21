@@ -327,18 +327,12 @@ button
 .newAppy .bodyLi {
   list-style: none;
   width: 150px;
-  /* line-height: 20px; */
   text-decoration: none;
-  /* color: black; */
-  /* display: block; */
   font-size: 10px;
   text-align: left;
   padding: 2px;
-  /* border-radius: 10px; */
   font-family: Arial, Helvetica, sans-serif;
   justify-content: flex-end;
-  /* font-weight: bold;
-  top: 90%; */
   
 }
 
@@ -350,19 +344,23 @@ button
   text-decoration: none;
   color: black;
 }
+.newAppy :hover {
+  color: orange;
+  transition: 0.6s;
+}
 
 .flexy {
   float: right;
   position: absolute;
   background: white;
   margin-left: 218px;
-  margin-top: -32px;
-  display: block;  
+  margin-top: -31px;
+  display: flex;  
   z-index: 3;
   text-decoration: none;
   /* box-sizing: border-box; */
-  border: 1px solid black;
-  height: 361px;
+  border: 1px grey;
+  height: 365px;
   list-style: none;
   width: 175px;
   text-align: left;
@@ -423,10 +421,11 @@ button
   overflow: hidden;
 }
 
-.newAppy .bodyLi :hover {
+/* .bodyDiv .bodyUl .newAppy .bodyLi :hover {
   background: #669900;
+  color: orange;
   transition: 0.6s;
-}
+} */
 
 .bodyDiv {
   position: absolute;
@@ -637,6 +636,10 @@ margin-left: 300px;
   line-height: 20px;
   text-align:left;
 }
+
+.moreli :hover{
+  text-decoration: underline;
+}
 .smaH {
   text-align: left;
   justify-content: left;
@@ -706,12 +709,12 @@ margin-left: 300px;
   .mobileinput{
     width: 80%;
     height: 25px;
-    border: 1px solid grey;
-    background:grey; 
+    border: none;
+    background: #f4f4f4;
   }
 .search {
   border: 1px solid grey;
-  background: grey;
+  background: #f4f4f4;
   padding: 7.5px;
   margin-left: 18px;
   max-width: 85%;

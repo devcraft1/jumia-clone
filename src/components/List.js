@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import {Link, BrowserRouter} from 'react-router-dom'
 
 
 class List extends Component{
@@ -35,6 +34,11 @@ class List extends Component{
                   <li className="flex1">Samsung</li>
                   <li className="flex1">Apple</li>
                   <li className="flex1">Tekno</li>  
+                  <li className="flex1">Apple</li>
+                  <li className="flex1">Tekno</li>
+                  <li className="flex1">Huawei</li>
+                  <li className="flex1">MTN</li>
+                  <li className="flex1">AIRTEL</li>
                   </div>
               </ul>
             </div>
