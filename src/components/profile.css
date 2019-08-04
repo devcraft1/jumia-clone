@@ -1,107 +1,234 @@
-.All{
-    background: rgb(231, 230, 230);
+.ProfileGeneral{
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-color: #f1f1f1;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-
-.FirstOverall{
-    background:rgb(252, 250, 250);
-    margin-left: 7%;
-    margin-right: 5%; 
+.ProfileSuper{
+   margin: auto;
+    width: 80%; 
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 
-.Flex {
+
+.ProfileAll{
     display: flex;
-    justify-content: space-around;
-}
-.FirstDiv{
-    position: absolute;
-    border: 1px solid;
-    border-style: ridge;
-    border-color: rgb(219, 215, 215);
-    background:white;
-    display: -webkit-inline-flex;
-    margin-right: 20%;
-    border-left-color:white; 
-    margin-left: -500px;
-    
+    justify-content: space-between;
+    background-color:#f1f1f1;
+    border: 1px solid #f1f1f1;
 }
 
-.FirstDiv .nav .a :hover{
-    border: 1px solid;
-    border-color:black;
-    background: white;
-
-    
+.ProfileFirst{
+    display: grid;
+    grid-auto-rows: 2rem;
+    border: 1px solid #f1f1f1; 
+    width: 22%; 
+    background-color: white;
+    text-align: left;
 }
 
-.nav {
-    width: 200px;
-    background: white;
-    line-height: 9px;
-    
+
+.ProfileFirst nav a :hover{
+    border: 1px solid #f1f1f1;
+    border-color:white;
+    background: #f1f1f1; 
 }
 
 .a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
+  }
+
+.profileLogout{
+ color:orange;
+ text-align: center;
+ border: 2px solid #f1f1f1;
+ border-bottom: none;
   
 }
 
-.Logout{
-    color:red;
+.ProfileSecond{
+    
+    display: flex;
+    flex-wrap:wrap;
+    width: 75%; 
+    background-color: white;
+    justify-content: space-between;
+    text-align: start;
+    border:1px solid #f1f1f1; 
+    
 }
 
-.Account{
-    background: rgb(231, 230, 230);
+.profileAccount{
+    background: #f1f1f1;
 }
 
-.Account1{
+.profileAccount{
     color: black;
 }
 
-.ChangePassword{
-    color: red;
+
+
+
+.ProfileSecond1{
+    width: 40%;
+    /* justify-content: space-between; */
+    border: 1px solid #f1f1f1;
+    /* display: grid; */
+    align-items: center;
 }
 
-.SecondOverall{
-    background: white;
-    display: flex;
-    /* -moz-text-size-adjust:right 20px; */
-    border: 1px solid rgb(255, 255, 255);
-    
-    
-}
-
-.SecondDiv{
-border: 1px solid;
-border-style: ridge;
-/* flex: auto;  */
-/* margin-right: 50%;   */
-width: 350px;
-background: white;
-position: relative;
-margin-left: 220px;
+.ProfilePassword{
+    color: orange;
 }
 
 
- .ThirdDiv{
-    border:1px solid;
-    border-style: ridge;
-    margin-top: 100px;
-    
+.DivBorders{
+    border: 1px solid #f1f1f1;
+    width: 100%;
+    margin-bottom: 15%;
+    size: 20%;
+
+}
+
+.ProfileRecommended{
+ background-color: #f1f1f1;
+ text-align: left;
+}
+
+
+.ProfileGood-icon{
+    width: 6%;
+    height: 2%;
+}
+
+.profileIcon{
+    width: 8%;
+    height: 2%;
+}
+.profileIcons{
+    width: 6%;
+    height: 3%;
+    margin-left: 30%;
 } 
 
- .FourtDiv{
- border: 1px solid;
-border-style: ridge;
-margin-top: 40px;
-width: 380px;
-position: relative;
-   
-    margin-left: 80px;
- }
+.profileJug{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    
+}
 
- .FirstDiv + .SecondDiv {
-     margin: 0 0px;
- }
+.profileJugs{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+
+.ProfileJugsAll{
+    background:white;
+    margin-bottom: 1%
+   
+}
+
+.ProfileRelative{
+    float: right;
+    color: orange;
+}
+
+.Line{
+    color: floralwhite;
+    background: rgb(48, 47, 47);
+    display: -webkit-inline-box;
+    width: 100%;
+}
+
+.LineOne{
+    
+    padding: 5px;
+    margin: 5px;
+    width: 0px;
+    -webkit-box-flex:1; 
+}
+
+.LineTwo{
+    
+     padding: 5px;
+    margin: 5px;
+    width: 0px;
+    -webkit-box-flex: 1; 
+}
+
+.LineThree{
+    
+     padding: 5px;
+    margin: 5px;
+    width: 0px;
+    -webkit-box-flex: 2; 
+}
+
+.LineFour{
+    
+    padding: 5px;
+    margin: 5px;
+    width: 0px;
+    -webkit-box-flex: 1; 
+}
+
+.Images + .Images{
+margin: 0 0 0 10px;
+    
+}
+
+.Images2 + .Images2{
+    margin: 0 0 0 25px;
+}
+
+.Images3 + .Images3{
+    margin: 0 0 0 10px;
+} 
+
+@media only screen and (max-width:736px) {
+    .ProfileSecond{
+        display: none;
+    }
+
+
+.ProfileRecommended{
+    display: none;
+   }
+   
+.ProfileJugsAll{
+    display: none;
+}
+
+
+.ProfileFirst{
+    margin-bottom: 50px;
+    width: 90%; 
+    text-align: left;
+   
+}
+
+.LineOne{
+    display: none;
+}
+    .LineTwo{
+        display: none;
+    }
+
+
+        .LineThree{
+            display: none;
+        }
+
+            .LineFour{
+                display: none;
+            }
+
+
+
+}

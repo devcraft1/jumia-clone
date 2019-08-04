@@ -37,8 +37,10 @@ if(email === 'danekehu@gmail.com' && password ==='123'){
     this.setState({
         loggedIn:true
     })
-    return this.props.history.push('/')   
+    return this.props.history.push('/profile')   
     
+} else {
+    alert ("wrong login details")
 }
 
 }
@@ -51,18 +53,18 @@ render(){
             <NavThree />
         <div className='login-container'>
         <div class='ctn1'>
-        <form>
+        <form  onSubmit={this.submitForm}>
             <h3>Login</h3>
             
             <div className="login-Wrapper">
                 <div className="Inputlogin">
-                <input type="*" id="input" className="Input-text" placeholder="First Name" required='requred'></input>
-                <label for="input" className="Input-label">First Name</label>            
+                <input id="input" className="Input-text" type='email' placeholder='email' name='email' value={this.state.email} onChange={this.onChange}></input>
+                <label for="input" className="Input-label">Email</label>            
             </div>
 
             <div className="Inputlogin">
-                <input type="*" id="input" className="Input-text" placeholder="Last Name" required='required'></input>
-                <label for="input" className="Input-label">Last Name</label>            
+                <input id="input" className="Input-text"type='password' placeholder='password' name='password' value={this.state.password}  onChange={this.onChange}></input>
+                <label for="input" className="Input-label">Password</label>            
                 </div>
             </div>
 
@@ -93,15 +95,19 @@ render(){
  </div>
 
  </div>
+
  </div>
-  <Footer />
-  <FooterTwo />
-  </div>
+ <Footer />
+ <FooterTwo />
+
+ </div>
         
     
     )
 }
 }
+        
+    
 
 
 
@@ -109,17 +115,17 @@ export default Login;
 
 
 
+// 
+//   // <div>
+//         //     <h1>Login here</h1>
+//         //     <form onSubmit={this.submitForm}>
+//         //     <input type='text' placeholder='username' name='username' value={this.state.username} onChange={this.onChange}/><br />
+//         //     <input type='password' placeholder='password' name='password' value={this.state.password}  onChange={this.onChange}/><br />
+//         // <input type='submit'/>
+//         // </form>
+//         // </div>
 
-  // <div>
-        //     <h1>Login here</h1>
-        //     <form onSubmit={this.submitForm}>
-        //     <input type='text' placeholder='username' name='username' value={this.state.username} onChange={this.onChange}/><br />
-        //     <input type='password' placeholder='password' name='password' value={this.state.password}  onChange={this.onChange}/><br />
-        // <input type='submit'/>
-        // </form>
-        // </div>
-
-        // render() {
+//         // render() {
         
  
         //     return(

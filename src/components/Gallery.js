@@ -12,16 +12,16 @@ class Gallery extends Component {
         return <div className="gallery">
             <div className="gal2">
                  <BrowserRouter>
-                 <AccountBalance style={{ height: '20px', float: "left", marginTop: "13px" , marginLeft: '19px'}}/><div className="sidediv" style={{ marginRight: '390px' }}><NavLink style={{ textDecoration: 'none' }}>
+                 <AccountBalance style={{ height: '20px', float: "left", marginTop: "13px" , marginLeft: '19px'}}/><div className="sidediv" style={{ marginRight: '390px' }}><a href="https://www.google.com" target="_blank"  style={{ textDecoration: 'none' }}>
 <h1 style={{ fontSize: '10px', color: "orange", textAlign:"left" }}>SELL ON JUMIA</h1>
-<p style={{ fontSize: '10px', color: "orange", textAlign:"left" }}>Millions of monthly visitors</p></NavLink></div>
+<p style={{ fontSize: '10px', color: "orange", textAlign:"left" }}>Millions of monthly visitors</p></a></div>
 
 <MonetizationOn style={{ height: '20px', float: "left", marginTop: "5px", marginLeft: '19px' }}/><div className="sidediv" style={{ marginRight: '390px'}}><NavLink  style={{ textDecoration: 'none' }}><h1 style={{ fontSize: '10px', color: "grey", textAlign:"left" }}>PAY ON DELIVERY</h1>
 <p style={{ fontSize: '10px', color: "grey", textAlign:"left" }}>After checking the product</p></NavLink></div>
 
 <Sync style={{ height: '20px', float: "left", marginTop: "2px", marginLeft: '19px' }}/><div className="sidediv" style={{ marginRight: '395px' }}><NavLink style={{ textDecoration: 'none' }}><h1 style={{ fontSize: '10px', color: "grey", textAlign:"left"}}>EASY RETURN</h1>
 <p style={{ fontSize: '10px', color: "grey", textAlign:"left" }}>Quick refund</p></NavLink></div>
-<NavLink style={{ marginRight: '364px' }}><img src="/pics/jumiaprime.jpg" alt="jumiahead" height="229px"/></NavLink>
+<a href="https://www.google.com" target="_blank"  style={{ marginRight: '364px' }}><img src="/pics/jumiaprime.jpg" alt="jumiahead" height="229px"/></a>
 </BrowserRouter>
 </div>
             <div className="gal1">

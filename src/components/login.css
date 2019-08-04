@@ -1,10 +1,4 @@
-body{
-  margin: 0;
-  padding: 0; 
-    
-  }
-  
-  .login-Wrapper {
+   .login-Wrapper {
     flex: 0 0 80%;
     max-width: 80%;
     display: flex;
@@ -58,12 +52,16 @@ body{
   
   .Input-text::placeholder {
     color: #B0BEC5;
-    margin-top: 2rem
+    margin-top: 2rem;
+  
   }
   
   .Input-text:focus {
     outline: none;
     box-shadow: 0.2rem 0.8rem 1.6rem var(--colorPrimary600);
+  }
+  .Input-text{
+    background-color: transparent;
   }
   
   .Input-label {
@@ -132,7 +130,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-left: 0.3rem;
+    margin-left: -4rem;
   }
   
   .box0 p{
@@ -225,4 +223,55 @@ body{
   .b4 button{
     height: 3rem;
     background-color: #40588a;
+  }
+
+  @media only screen and (max-width:736px) {
+
+    .headul0{
+      display: none;
+    }
+
+    #input-container3 {
+      display: none;
+    }
+    .ctn2 {
+      display: none;
+    }
+
+    .ctn1{
+      margin-bottom: 355px;
+      margin-left: -195px;
+      width: 28rem;
+      height: 18rem;
+    }
+
+    .login-Wrapper {
+      flex: 0 0 50%;
+      max-width: 50%;
+      display: flex;
+      flex-direction: column;
+      width: 25rem;
+      margin: 10px auto;
+      flex-wrap: wrap;
+      margin-left: 19rem ;
+    }
+
+    .Inputlogin {
+      width: 20rem;
+    }
+
+    .ctn1 button{
+      margin: 10px;
+      height: 3rem;
+      width: 24rem;
+    }
+
+    .box0{
+      margin-left: -1rem;
+    }
+    
+    .box0 p{
+      width: 12em;  
+    }
+
   }

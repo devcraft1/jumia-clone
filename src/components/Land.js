@@ -212,40 +212,40 @@ class Land extends Component{
                         <div>
                         <NavLink className="newAppy" onMouseOver={this.showDropdownMenu} onMouseOut={this.hideDropdownMenu}>
                         <li className="bodyLi"><ShoppingCart />FREE DELIVERY</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
-                        </NavLink></div>  { this.state.displayMenu ? ( <List/>) : (null) }
+                        </NavLink></div>  { this.state.displayMenu ? ( <List/>) : (null) } { this.state.displayMenu11 ? ( <List4/>) : (null) } { this.state.displayMenu1 ? ( <List/>) : (null) } { this.state.displayMenu2 ? ( <List4/>) : (null) } { this.state.displayMenu3 ? ( <List/>) : (null) } { this.state.displayMenu4 ? ( <List/>) : (null) } { this.state.displayMenu5 ? ( <List4/>) : (null) } { this.state.displayMenu6 ? ( <List/>) : (null) } { this.state.displayMenu7 ? ( <List4/>) : (null) } { this.state.displayMenu8 ? ( <List/>) : (null) } { this.state.displayMenu9 ? ( <List4/>) : (null) } { this.state.displayMenu10 ? ( <List/>) : (null) }
                         <div><NavLink className="newAppy" onMouseOver={this.showDropdownMenu11} onMouseOut={this.hideDropdownMenu11}>
                         <li className="bodyLi"><MobileScreenShare />PHONES & TABLETS</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
-                        </NavLink></div> { this.state.displayMenu11 ? ( <List4/>) : (null) }
+                        </NavLink></div> 
                         <div> <NavLink className="newAppy" onMouseOver={this.showDropdownMenu1} onMouseOut={this.hideDropdownMenu1}>
                         <li className="bodyLi"><Computer />COMPUTING</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li> 
-                        </NavLink></div> { this.state.displayMenu1 ? ( <List/>) : (null) }
+                        </NavLink></div> 
                         <div><NavLink className="newAppy" onMouseOver={this.showDropdownMenu2} onMouseOut={this.hideDropdownMenu2}>
                         <li className="bodyLi"><Tv />ELECTRONICS</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
-                        </NavLink></div> { this.state.displayMenu2 ? ( <List4/>) : (null) }
+                        </NavLink></div> 
                         <div><NavLink className="newAppy" onMouseOver={this.showDropdownMenu3} onMouseOut={this.hideDropdownMenu3}>
                         <li className="bodyLi"><Home/>HOME & OFFICE</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
-                        </NavLink></div> { this.state.displayMenu3 ? ( <List/>) : (null) }
+                        </NavLink></div> 
                         <div><NavLink className="newAppy" onMouseOver={this.showDropdownMenu4} onMouseOut={this.hideDropdownMenu4}>
                         <li className="bodyLi"><Work />FASHION</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
-                        </NavLink></div> { this.state.displayMenu4 ? ( <List/>) : (null) }
+                        </NavLink></div> 
                         <div><NavLink className="newAppy" onMouseOver={this.showDropdownMenu5} onMouseOut={this.hideDropdownMenu5}>
                         <li className="bodyLi"><FitnessCenter />HEALTH & BEAUTY</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
-                        </NavLink></div> { this.state.displayMenu5 ? ( <List4/>) : (null) }
+                        </NavLink></div> 
                         <div> <NavLink className="newAppy" onMouseOver={this.showDropdownMenu6} onMouseOut={this.hideDropdownMenu6}>
                         <li className="bodyLi"><Casino />GAMING</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
-                        </NavLink></div> { this.state.displayMenu6 ? ( <List/>) : (null) }
+                        </NavLink></div> 
                         <div><NavLink className="newAppy" onMouseOver={this.showDropdownMenu7} onMouseOut={this.hideDropdownMenu7}>
                         <li className="bodyLi"><FreeBreakfast />GROCERY</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
-                        </NavLink></div> { this.state.displayMenu7 ? ( <List4/>) : (null) }
+                        </NavLink></div> 
                         <div><NavLink className="newAppy" onMouseOver={this.showDropdownMenu8} onMouseOut={this.hideDropdownMenu8}>
                         <li className="bodyLi"><Language />GLOBAL STORE</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
-                        </NavLink></div> { this.state.displayMenu8 ? ( <List/>) : (null) }
+                        </NavLink></div> 
                         <div><NavLink className="newAppy" onMouseOver={this.showDropdownMenu9} onMouseOut={this.hideDropdownMenu9}>
                         <li className="bodyLi"><ChildCare />BABY PRODUCTS</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
-                        </NavLink></div> { this.state.displayMenu9 ? ( <List4/>) : (null) }
+                        </NavLink></div> 
                         <div><NavLink className="newAppy" onMouseOver={this.showDropdownMenu10} onMouseOut={this.hideDropdownMenu10}>
                         <li className="bodyLi"><AllInclusive />OTHER CATEGORIES</li><li><KeyboardArrowRight style={{color: "grey", fontSize: '20px', float: "right",marginTop:"-20px"}}/></li>
-                        </NavLink></div> { this.state.displayMenu10 ? ( <List/>) : (null) }
+                        </NavLink></div> 
                         </BrowserRouter>
                     </ul>
                 

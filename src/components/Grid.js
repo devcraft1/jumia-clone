@@ -10,22 +10,22 @@ class Grid extends Component {
                 <p className="cartText">Featured Categories</p>
                 <div className="products">
                      <div className="product">
-                  <a href="https://www.google.com" target="_blank" className="cart"><img src="/pics/phone.png" alt="nigerianteam" height="120"/>Mobile Phones</a>
+                  <a href="https://www.google.com" target="_blank" className="cart"><img className="gridimg" src="/pics/phone.png" alt="nigerianteam" height="120"/>Mobile Phones</a>
                 </div>
                 <div className="product">
-                  <a href="https://www.google.com" target="_blank" className="cart"><img src="/pics/microwave.png" alt="nigerianteam" height="120"/>Microwave Ovens</a>
+                  <a href="https://www.google.com" target="_blank" className="cart"><img className="gridimg" src="/pics/microwave.png" alt="nigerianteam" height="120"/>Microwave Ovens</a>
                 </div>
                 <div className="product">
-                  <a href="https://www.google.com" target="_blank" className="cart"><img src="/pics/Laptop.png" alt="nigerianteam" height="120"/>Computing</a>
+                  <a href="https://www.google.com" target="_blank" className="cart"><img className="gridimg" src="/pics/Laptop.png" alt="nigerianteam" height="120"/>Computing</a>
                 </div>
                 <div className="product">
-                  <a href="#" className="cart"><img src="/pics/Freezer.png" alt="nigerianteam" height="120"/>Freezers</a>
+                  <a href="#" className="cart"><img className="gridimg" src="/pics/Freezer.png" alt="nigerianteam" height="120"/>Freezers</a>
                 </div>
                 <div className="product">
-                  <a href="#" className="cart"><img src="/pics/femaleshoe.png" alt="nigerianteam" height="120"/>Stilettos</a>
+                  <a href="#" className="cart"><img className="gridimg" src="/pics/femaleshoe.png" alt="nigerianteam" height="120"/>Stilettos</a>
                 </div>
                 <div className="product">
-                  <a href="#" className="cart"><img src="/pics/Men-belt.png" alt="nigerianteam" height="120"/>Belt</a>
+                  <a href="#" className="cart"><img className="gridimg" src="/pics/Men-belt.png" alt="nigerianteam" height="120"/>Belt</a>
                 </div>
                 <div className="product" id="hidegrid">
                   <a href="https://www.google.com" target="_blank" className="cart"><img src="/pics/TV.png" alt="nigerianteam" height="120"/>Televisions</a>

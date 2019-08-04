@@ -3,7 +3,7 @@ import {NavLink, BrowserRouter} from 'react-router-dom'
 import Land from './Land';
 import Grid from './Grid';
 import List2 from './List2';
-import List3 from './List3';
+import List7 from './List7';
 import { Home, Book, AddShoppingCart, Help, KeyboardArrowDown, Dehaze, ShoppingCart, Person, Search} from '@material-ui/icons'
 
 
@@ -49,17 +49,17 @@ class Nav6 extends Component{
                 
             {/* <img style={{float: "left"}} src="/pics/jumiahead2.png" alt="jumiahead" style={{ height: "66px" }} /> */}
             <div id="input-container3">
-            <Dehaze style={{float: "left", marginLeft: "320px", marginTop: "20px" }}/><h1 style={{ fontSize: "30px", float: "left" }}>JUMIA</h1><AddShoppingCart style={{float: "left", marginLeft: "1px", color: "orange", fontSize: '40px', marginTop: "20px"  }}/> 
+            <a style={{ textDecoration: 'none', color: "black" }} href="/" ><Dehaze style={{float: "left", marginLeft: "320px", marginTop: "20px" }}/><h1 style={{ fontSize: "30px", float: "left" }}>JUMIA</h1></a><AddShoppingCart style={{float: "left", marginLeft: "1px", color: "orange", fontSize: '40px', marginTop: "20px"  }}/> 
           <input id="lname" type="text" placeholder="Search products, brands and categories"/>
             <button className="btnMain3"> SEARCH </button>
             <ul className="headUl1">
             <BrowserRouter>
             <NavLink className="appy1" onClick={this.showDropdownMenu} activeClassName="active"  style={{ textDecoration: 'none', marginTop:"18px"}}>
             <li className="headLi3">Hi Chike</li>
-        </NavLink><KeyboardArrowDown style={{ marginTop: '22px'}}/> { this.state.displayMenu ? ( <List2/>) : (null) }
-        <Help style={{marginTop:"18px"}}/><NavLink className="appy1" onClick={this.showDropdownMenu} activeClassName="active"  style={{ textDecoration: 'none', marginTop:"18px"}}>
+        </NavLink><KeyboardArrowDown style={{ marginTop: '22px'}}/> { this.state.displayMenu ? ( <List7/>) : (null) }
+        <Help style={{marginTop:"18px"}}/><NavLink className="appy1" onClick={this.showDropdownMenu2} activeClassName="active"  style={{ textDecoration: 'none', marginTop:"18px"}}>
             <li className="headLi1">Help</li>
-        </NavLink><KeyboardArrowDown style={{ marginTop: '22px'}}/> { this.state.displayMenu ? ( <List2/>) : (null) }
+        </NavLink><KeyboardArrowDown style={{ marginTop: '22px'}}/> { this.state.displayMenu2 ? ( <List2/>) : (null) }
         <AddShoppingCart  style={{ marginTop: '14px' }} /><NavLink className="appy1" activeClassName="active" style={{ textDecoration: 'none' }}>
         <li className="headLi1"  style={{ marginTop: '14px' }}>Cart</li>
         </NavLink>

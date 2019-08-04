@@ -1,0 +1,81 @@
+
+.ErrorHeader{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(247, 104, 52);
+    height: 30%;
+}
+
+.ErrorJumiaOne{
+    font-size: 2rem;
+    color: mintcream;
+}
+
+.ErrorInput{
+    width: 20%;
+    background-size: 20%; 
+    width: 20%;  
+    
+}
+
+.ErrorFour{
+    font-size: 1207%;
+
+}
+
+.ErrorBody{
+    height: 70%;
+    margin-top: 8%; 
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.ErrorBackHome a {
+color: red;
+}
+
+.ErrorFoot{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color:rgb(247, 104, 52);
+    /* margin-left: 20%; */
+}
+
+.ErrorFoot2A{
+display: flex;
+justify-content: center;
+    
+}
+
+.ErrorFoot2A1{
+    display: flex; 
+    justify-content: center;
+}
+
+.Image1{
+width: 20%;
+height:100%;
+}
+
+.Image2{
+width: 20%;
+height:100%;
+}
+
+.image-star{
+    width: 5%;
+}
+
+
+@media only screen and (max-width:736px) {
+
+
+.ErrorInput{
+    display: none;
+}
+
+.ErrorFoot2{
+    display: none;
+}
+}
